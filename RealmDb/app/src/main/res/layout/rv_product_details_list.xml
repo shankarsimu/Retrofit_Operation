@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/carView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    cardView:cardCornerRadius="15dp"
+    cardView:cardElevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/t_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="ID :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/id"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/t_id"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/u_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="USER ID :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/user_id"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/u_id"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/c_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="COMPANY ID :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/company_id"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/company_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/c_id"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/p_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="PRODUCT TYPE :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/product_type"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/product_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/p_type"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/p_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="PRODUCT NAME :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/product_name"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/p_name"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/u_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="UNIT :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/unit"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/unit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/u_unit"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/c_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:text="COST :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/cost"
+                cardView:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"
+                cardView:layout_constraintLeft_toRightOf="@id/c_cost"
+                cardView:layout_constraintTop_toTopOf="parent"
+                tools:text="#####" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

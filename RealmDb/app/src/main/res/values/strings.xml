@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sku">SKU</string>
+    <string name="product_service_name">Product/Service Name</string>
+
+
+    <string-array name="products_type">
+        <item>Product/Service Type</item>
+        <item>Inventory</item>
+        <item>Non-Inventory</item>
+        <item>Service</item>
+        <item>Bundle</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="unit">
+        <item>UNIT</item>
+        <item>BAG - BAGS</item>
+        <item>BAL -BALE </item>
+        <item>BDL - BUNDLES</item>
+        <item>BKL - BUCKLES</item>
+        <item>BOU - BILLIONS OF UNITS</item>
+        <item>BOX - BOX</item>
+        <item>BAG - BAGS</item>
+        <item>BTL - BOTTLES</item>
+        <item>BUN - BUNCHES</item>
+        <item>CAN - CANS</item>
+        <item>CBM - CUBIC METER</item>
+        <item>CTN - CARTOONS</item>
+        <item>DOZ - DOZEN</item>
+        <item>DRM - DRUM</item>
+        <item>OTH - OTHERS</item>
+    </string-array>
+</resources>

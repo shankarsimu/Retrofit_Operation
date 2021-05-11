@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="2">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="User ID :"-->
+<!--                    android:textColor="@color/black" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/id"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="1dp"-->
+<!--                    android:text="******"-->
+<!--                    android:textColor="@color/black" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="2">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="User Name :"-->
+<!--                    android:textColor="@color/black" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/name"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="1dp"-->
+<!--                    android:text="******"-->
+<!--                    android:textColor="@color/black" />-->
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:text="User Role :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/user_role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:text="******"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="2">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="User Email :"-->
+<!--                    android:textColor="@color/black" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/email"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="1dp"-->
+<!--                    android:text="*******"-->
+<!--                    android:textColor="@color/black" />-->
+<!--            </LinearLayout>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
